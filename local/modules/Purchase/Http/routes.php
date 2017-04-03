@@ -1,0 +1,37 @@
+<?php
+
+Route::group(['middleware' => 'web', 'prefix' => 'purchase', 'namespace' => 'Modules\Purchase\Http\Controllers'], function()
+{
+    Route::get('/',array(
+        'as'=>'purchase',
+        'uses'=>'PurchaseController@index'
+    ));
+    Route::get('addbill',array(
+        'as'=>'purchase.addbill',
+        'uses'=>'PurchaseController@addbill'
+    ));
+    Route::post('create',array(
+        'as'=>'purchase.create',
+        'uses'=>'PurchaseController@create'
+    ));
+    Route::get('view/{id}',array(
+        'as'=>'purchase.view',
+        'uses'=>'PurchaseController@view'
+    ));
+    Route::get('autocomplete',array(
+        'as'=>'purchase.autocomplete',
+        'uses'=>'PurchaseController@autocomplete'
+    ));
+    Route::get('delete/{id}',array(
+        'as'=>'purchase.delete',
+        'uses'=>'PurchaseController@delete'
+    ));
+    Route::get('test',array(
+        'as'=>'purchase.test',
+        'uses'=>'PurchaseController@test'
+    ));
+    Route::get('search',array(
+        'as'=>'purchase.search',
+        'uses'=>'PurchaseController@search'
+    ));
+});

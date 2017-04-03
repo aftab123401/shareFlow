@@ -1,0 +1,110 @@
+#backbtn{
+
+    font-size: 14px;
+
+}
+.user-image:hover{
+/*    transform:scale(1.1);*/
+    
+}
+.navbar-nav>li>.dropdown-menu{
+    margin-top: 2px !important;
+}
+
+.skin-blue .main-header li.user-header{
+    background-color: #05144c;
+}
+.legend{
+    padding: 40px;
+    text-align: center;
+    background-color: #D7F1F1;
+   -webkit-box-shadow: 9px 13px 30px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 13px 30px -6px rgba(0,0,0,0.75);
+box-shadow: 9px 13px 30px -6px rgba(0,0,0,0.75);
+}
+.datepicker{
+    background-color: #2A576B;
+    color: white;
+
+}
+.datepicker> thead{
+    background-color: red !important;
+}
+#conf{
+    margin-bottom: 10px;
+}
+.abc{
+    color: blue;
+    font-size: 20px;
+    margin-left: -2%;
+}
+#legend{
+    color: blue;
+    font-size: 30px;
+}
+.legend{
+    margin-top: 100px;
+}
+#btn{
+    margin-bottom: 8%;
+}
+.fa-pencil{
+    color: blue;
+    padding: 4px;
+}
+.fa-edit{
+    color: blue;
+}
+.fa-calendar-check-o{
+    color: blue;
+    padding: 4px;
+}
+.fa-search{
+    color: blue;
+}
+.fa-trash{
+    color: red;
+}
+.validation{
+    color: red !important;
+    margin-left: 10px;
+
+}
+
+.main-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 0px;
+
+}
+.breadcrumb{
+    background-color: transparent !important;
+    color: black !important;
+    margin-left: -5%;
+}
+.breadcrumb >li > a{
+    color: blue;
+}
+.breadcrumb >li > a:hover{
+    color: green;
+}
+.col-md-11{
+    margin-left: -5px !important;
+}
+#breadcrumbs{
+    margin-top: -1%;
+
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+    height: 34px;
+    font-size: 16px;
+
+}
+.container{
+    margin-left: -2%;
+    padding-right: 55px !important;
+}

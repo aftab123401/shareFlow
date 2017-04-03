@@ -1,0 +1,45 @@
+.navbar-default {
+    margin-left: -16px;
+    margin-right: -16px;
+    background-color: #75CE66;
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-form .form-control {
+    display: inline-block;
+    width: 284px;
+    text-align: center;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+}
+#table1,th,td{
+    border:1px solid lightgrey;
+}
+#info{
+    text-align:right;
+
+}
+body{
+
+    background-color:whitesmoke;
+}
+.container{
+    -webkit-box-shadow: 10px -5px 49px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -5px 49px -21px rgba(0,0,0,0.75);
+    box-shadow: 10px -5px 49px -21px rgba(0,0,0,0.75);
+
+    margin-bottom:40px;
+    padding:20px;
+    background-color:white;
+
+}
+#header{
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    margin-bottom: 550px !important;
+}
+
